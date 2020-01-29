@@ -44,7 +44,7 @@ function checkRequired(inputArr) {
 // Check Passwords Match
 function checkPasswordsMatch(input1, input2) {
   if(input1.value !== input2.value) {
-    showError(input2, 'Passwords do not match');
+    showError(input2, 'The Passwords do not match');
   }
 }
 

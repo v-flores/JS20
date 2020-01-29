@@ -25,7 +25,7 @@ function checkEmail(input) {
     if(re.test(input.value.trim())) {
       showSuccess(input);
     } else {
-      showError(input, 'Emamil is not valid');
+      showError(input, 'Email is not valid');
     }
 }
 

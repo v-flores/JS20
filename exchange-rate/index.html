@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Exchange Rate Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,10 +19,10 @@
   <div class="container">
     <div class="currency">
       <select id="currency-one">
+        <option value="AED">AED</option>
         <option value="ARS">ARS</option>
         <option value="AUD">AUD</option>
         <option value="BGN">BGN</option>
-        <option value="AED">AED</option>
         <option value="BRL">BRL</option>
         <option value="BSD">BSD</option>
         <option value="CAD">CAD</option>
@@ -67,7 +69,6 @@
         <option value="UAH">UAH</option>
         <option value="USD" selected="">USD</option>
         <option value="UYU">UYU</option>
-        <option value="VND">VND</option>
         <option value="ZAR">ZAR</option>
       </select>
       <input type="number" id="amount-one" placeholder="0" value="1">
@@ -75,7 +76,7 @@
     </div>
 
     <div class="swap-rate-container">
-      <button class="btn" id="rate">
+      <button type="button" class="btn btn-lg" id="swap">
         Swap
       </button>
       <div class="rate" id="rate"></div>

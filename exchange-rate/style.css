@@ -78,12 +78,22 @@ p {
 
 .rate {
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 10px;
 }
 
 select:focus, input:focus, button:focus {
   outline:0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:var(--primary-color);
+  color: white;
+  text-align: center;
 }
 
 @media(max-width: 600px) {
